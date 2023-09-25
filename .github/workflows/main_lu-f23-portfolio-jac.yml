@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - lu-portfolio-jac
+name: Build and deploy Node.js app to Azure Web App - lu-f23-portfolio-jac
 
 on:
   push:
@@ -50,7 +50,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'lu-portfolio-jac'
+          app-name: 'lu-f23-portfolio-jac'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0504BC22782C4195BB7D6FF6888A678E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB58A770B7B2423B9F4FE8D03FEA251E }}
           package: .
