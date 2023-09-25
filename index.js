@@ -10,12 +10,12 @@ const minorVersion = 2
 // Use Express to publish static HTML, CSS, and JavaScript files that run in the browser. 
 app.use(express.static(__dirname + '/static'))
 
-// Custom 404 page.
-app.use((request, response) => {
-  response.type('text/plain')
-  response.status(404)
-  response.send('404 - Not Found')
-})
+// // Custom 404 page.
+// app.use((request, response) => {
+//   response.type('text/plain')
+//   response.status(404)
+//   response.send('404 - Not Found')
+// })
 
 // Custom 500 page.
 app.use((err, request, response, next) => {
