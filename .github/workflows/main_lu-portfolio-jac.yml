@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'lu-portfolio-jac'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0504BC22782C4195BB7D6FF6888A678E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C60ADD56A6144473819FCBC5B55694A4 }}
           package: .
