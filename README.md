@@ -12,4 +12,4 @@ This portfolio is intended to be a work-in-progress project that will be continu
 In theory, it should act as a one-stop-shop for every project I create in CPSC 44000 and similar classes, while at Lewis University.
 
 ## How to Access
-Visit this link: [lu-portfolio-jac.azurewebsites.net](https://lu-portfolio-jac.azurewebsites.net)
+Visit this link: [lu-f23-portfolio-jac.azurewebsites.net/](https://lu-f23-portfolio-jac.azurewebsites.net/)
